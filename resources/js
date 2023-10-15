@@ -1,0 +1,27 @@
+// resources/js/app.js
+
+// Import necessary dependencies
+import Vue from 'vue';
+import axios from 'axios';
+
+// Define the Vue app
+const app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello, Laravel!'
+  },
+  methods: {
+    fetchData() {
+      axios.get('/api/data')
+        .then(response => {
+          this.message = response.data.message;
+        })
+        .catch(error => {
+          console.error(error);
+        });
+    }
+  },
+  mounted() {
+    this.fetchData();
+  }
+});

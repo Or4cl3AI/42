@@ -1,0 +1,11 @@
+<?php
+
+// This is a placeholder file for the public/images directory in a Laravel application.
+// You can add your image files to this directory.
+
+// Example usage:
+// <img src="{{ asset('images/example.jpg') }}" alt="Example Image">
+
+// Remember to replace 'example.jpg' with the actual filename of your image.
+
+// End of file.
