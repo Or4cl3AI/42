@@ -1,0 +1,25 @@
+```php
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class ModelName extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        // Add the fillable fields here
+    ];
+
+    protected $hidden = [
+        // Add the hidden fields here
+    ];
+
+    protected $casts = [
+        // Add the casts for specific fields here
+    ];
+}
+```

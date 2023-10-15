@@ -1,0 +1,19 @@
+@extends('layouts.app')
+
+@section('content')
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">{{ __('Welcome') }}</div>
+
+                    <div class="card-body">
+                        <h1>Welcome to the Laravel App!</h1>
+                        <p>This is a full stack AI application built with Laravel and PHP.</p>
+                        <p>Enjoy exploring the features and functionalities of the AI agent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
