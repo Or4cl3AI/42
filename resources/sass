@@ -1,0 +1,6 @@
+// resources/sass/app.scss
+
+// Import Laravel Mix CSS
+@import '../../public/css/app.css';
+
+// Your custom Sass code here
