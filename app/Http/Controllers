@@ -1,0 +1,35 @@
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class LaravelAppController extends Controller
+{
+    /**
+     * Display the home page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        return view('welcome');
+    }
+
+    /**
+     * Handle the form submission.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function submitForm(Request $request)
+    {
+        // Handle form submission logic here
+
+        return redirect()->back()->with('success', 'Form submitted successfully!');
+    }
+}
+```
+
+This is the code for the `app/Http/Controllers` file. It defines a `LaravelAppController` class with two methods: `index()` and `submitForm()`. The `index()` method returns the view for the home page, while the `submitForm()` method handles the form submission logic and redirects back to the previous page with a success message.

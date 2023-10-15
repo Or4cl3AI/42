@@ -1,0 +1,11 @@
+```php
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () {
+    return view('welcome');
+});
+```
+
+This code generates the routes file for a minimal working Laravel web application. It defines a single route that maps the root URL ("/") to a closure function that returns the "welcome" view.

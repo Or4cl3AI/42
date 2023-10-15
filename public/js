@@ -1,0 +1,6 @@
+// File: public/js/app.js
+
+// Add your JavaScript code here
+
+// Example code:
+console.log("Hello, Laravel App!");

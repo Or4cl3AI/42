@@ -1,0 +1,25 @@
+// resources/js/app.js
+
+// Import necessary dependencies
+import Vue from 'vue';
+import axios from 'axios';
+
+// Create a new Vue instance
+const app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello, Laravel App!'
+  },
+  mounted() {
+    // Make an AJAX request to the backend API endpoint
+    axios.get('/api/data')
+      .then(response => {
+        // Handle the response data
+        console.log(response.data);
+      })
+      .catch(error => {
+        // Handle any errors
+        console.error(error);
+      });
+  }
+});
