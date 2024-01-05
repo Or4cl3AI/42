@@ -1,7 +1,8 @@
 repo_name: Or4cl3AI/42
 report_id: a49b649b2159dde83ea30275ccd26707
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-24T02:00:01+00:00'
+timestamp: '2024-01-05T08:34:32+00:00'
 requested_by: Or4cl3AI
 provider: github
 branch: main
@@ -15,4 +16,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Or4cl3AI/42
   detection_source: Repo Metadata
